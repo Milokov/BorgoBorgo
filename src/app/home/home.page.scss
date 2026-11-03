@@ -1,0 +1,59 @@
+.menu-header {
+  margin-bottom: 20px;
+  h2 {
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  p {
+    color: #666;
+    margin: 0;
+  }
+}
+
+.menu-list {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.menu-item {
+  .emoji {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+
+  .price {
+    color: #d63031;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .count {
+      font-weight: bold;
+      min-width: 20px;
+      text-align: center;
+    }
+  }
+}
+
+.summary-card {
+  margin-top: 24px;
+  border-radius: 12px;
+  background: #fff0f0;
+  box-shadow: none;
+
+  h3 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #111;
+  }
+
+  .total {
+    font-size: 18px;
+    color: #d63031;
+  }
+}
